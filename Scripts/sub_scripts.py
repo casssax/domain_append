@@ -71,8 +71,8 @@ def append_firm_domain(input_file, out_file):
             new_line = ''
             c_domain = None
             e_domain = None
-            c_domain = company_lookup(listdata[8],firm_data)
-            e_domain = email_lookup(listdata[7],email_data)
+            c_domain = company_lookup(listdata[9],firm_data)
+            e_domain = email_lookup(listdata[8],email_data)
             ##print 'company: ', c_domain, 'email: ', e_domain
             out_domain = pick_domain(e_domain,c_domain)
             ##print 'out_domain: ', out_domain
